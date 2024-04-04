@@ -21,26 +21,21 @@
     }
 }
 
-.remix-rodeo-banner {
-    padding: 2rem;
-    text-align: center;
-    border-bottom: 2px solid black;
-    background-image: url(./images/lee-pigott-B3SoLw5pM4s-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover;
+.only-oatmeal-banner {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    border-bottom: 2px solid black; /* Add a 2px solid black line at the bottom */
+    padding-bottom: 10px;
 }
 
-.remix-rodeo-banner h1 {
-    font-size: 4rem;
-    color: white;
-    margin-bottom: 0;
-    font-family: 'Bronco', Helvetica, Arial, sans-serif;
-    text-shadow: 4px 4px 8px rgba(53, 53, 53, 1);
+.only-oatmeal-banner img {
+    height: auto; /* Ensure the image height adjusts according to its aspect ratio */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
 }
 
-@media only screen and (min-width: 768px) {
-    .remix-rodeo-banner h1 {
-        font-size: 6rem;
-    }
+.only-oatmeal-banner span {
+    font-size: 50px; /* Set font size to 75% of the image height */
+    margin-left: 10px;
+    margin-right: 10px;
 }

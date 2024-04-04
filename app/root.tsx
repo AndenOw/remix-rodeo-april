@@ -6,6 +6,7 @@ import {
     ScrollRestoration
 } from '@remix-run/react';
 
+import quakerOats from './images/image-removebg-preview.png';
 import './styles.css';
 import 'bulma/css/bulma.css';
 import Navbar from './components/Navbar';
@@ -28,8 +29,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     <div className="container">
                         <Navbar />
                     </div>
-                    <div className="remix-rodeo-banner">
-                        <h1>Welcome to Only Oatmeal</h1>
+                    <div className="only-oatmeal-banner">
+                        <span>Welcome to</span>
+                        <img src={quakerOats} alt="Only Oatmeal Banner"></img>
+                        <span>Only Oatmeal</span>
                     </div>
                 </header>
                 <main className="container px-3 pb-6">{children}</main>
