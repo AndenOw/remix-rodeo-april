@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <div className="navbar-item">
-                    <strong>RR</strong>
+                    <strong>OO</strong>
                 </div>
 
                 <button
@@ -37,16 +37,6 @@ export default function Navbar() {
                         <BookOpen className="mr-2" />
                         Menu
                     </Link>
-
-                    <a
-                        className="navbar-item"
-                        href="https://www.figma.com/file/800ixgQz0v0hfquf5z5QqM/Remix-Rodeo-Wireframes?type=design&node-id=0%3A1&mode=design&t=fD6zpeJ2GwYz1MJO-1"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <PanelsTopLeft className="mr-2" />
-                        Wireframes
-                    </a>
                 </div>
             </div>
         </nav>
