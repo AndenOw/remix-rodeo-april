@@ -11,7 +11,7 @@ async function generateMenuItems(numItems) {
             image: faker.image.urlLoremFlickr({
                 width: 300,
                 height: 300,
-                category: 'food,sandwhich,salad'
+                category: 'oatmeal'
             }),
             name: faker.lorem.words(),
             price: faker.commerce.price({
@@ -20,8 +20,8 @@ async function generateMenuItems(numItems) {
                 symbol: '$'
             }),
             category: faker.helpers.arrayElement([
-                'appetizer',
-                'entree',
+                'breakfast',
+                'brunch',
                 'dessert'
             ])
         };
