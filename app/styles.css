@@ -44,3 +44,10 @@
         font-size: 6rem;
     }
 }
+
+.oo-logo {
+    font-weight: 700;
+    letter-spacing: -0.175em;
+    font-style: italic;
+    font-size: 3em;
+}
