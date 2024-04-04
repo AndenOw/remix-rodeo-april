@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <div className="navbar-item">
-                    <strong>OO</strong>
+                    <strong className="oo-logo">OO</strong>
                 </div>
 
                 <button
