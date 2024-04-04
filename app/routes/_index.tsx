@@ -9,57 +9,21 @@ export const meta: MetaFunction = () => {
 export default function Index() {
     return (
         <>
+            <h1 className="title is-1">Indulge in Oatopia</h1>
+            <h3>At Only Oatmeal, we believe in starting your day right, with wholesome, hearty, and delicious oatmeal creations that will leave you feeling energized and satisfied.</h3>
+            <br />
             <div className="columns content">
                 <div className="column">
-                    <h3 className="title is-3">The Finest Grains</h3>
-                    <p>Build a restaurant ordering app.</p>
-                    <p>
-                        Choose your favorite restaurant. Make up your own restaurant! Try to build
-                        out as complete of a site as possible.
-                    </p>
-                    <p>
-                        Leverage core concepts in Remix like{" "}
-                        <a href="https://remix.run/docs/en/main/file-conventions/routes">
-                            nested routes
-                        </a>
-                        ,{" "}
-                        <a href="https://remix.run/docs/en/main/discussion/progressive-enhancement">
-                            progressive enhancement
-                        </a>{" "}
-                        and{" "}
-                        <a href="https://remix.run/docs/en/main/discussion/pending-ui">
-                            optimistic UI
-                        </a>{" "}
-                        to make your app shine!
-                    </p>
-                    <h3 className="title is-3">Starting point</h3>
-                    <p>Use Vite to compile your app. Everything else is up to you.</p>
-                    <h4 className="title is-4">Options</h4>
-                    <p>
-                        This repo (Vite + Remix SPA) has been setup for instructional use but{" "}
-                        <a href="https://github.com/remix-austin/remix-rodeo-april">
-                            can also be forked
-                        </a>{" "}
-                        and used as a starter for your project.
-                    </p>
-                    <p>
-                        A sample menu has been created at <Link to="menu">/menu</Link>. Feel free to
-                        also use these additional assets:
-                    </p>
-                    <LinkList
-                        items={[
-                            {
-                                label: "Menu JSON",
-                                href: "https://github.com/remix-austin/remix-rodeo-april/blob/main/app/menu.json"
-                            },
-                            {
-                                label: "Menu generator script",
-                                href: "https://github.com/remix-austin/remix-rodeo-april/blob/main/generate-menu.js"
-                            }
-                        ]}
-                    />
+                    <h3 className="title is-3">Why Choose Only Oatmeal?</h3>
+                    <ul>
+                        <li>Fresh Ingredients: We source only the finest ingredients to ensure every bowl of oatmeal is packed with nutrition and flavor.</li>
+                        <li>Customization: Build your own oatmeal masterpiece with our wide selection of toppings, fruits, nuts, and more.</li>
+                        <li>Health Benefits: Oats are known for their numerous health benefits, from promoting heart health to boosting energy levels.</li>
+                        <li>Fast & Convenient: Whether you're on-the-go or taking a leisurely breakfast break, Oatopia caters to your schedule.</li>
+                    </ul>
                 </div>
             </div>
+            <Link className="title is-4 revolution" to="menu">Join the Oatmeal Revolution!</Link>
         </>
     )
 }

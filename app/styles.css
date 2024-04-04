@@ -9,6 +9,14 @@
     }
 }
 
+.revolution {
+    color: #7878ff!important;
+}
+
+.revolution:hover {
+    color: #5757fe!important;
+}
+
 .rounded {
     border-radius: 12px;
 }
